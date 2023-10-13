@@ -27,24 +27,32 @@
 /* comp 1 */
 .comp1{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: black;
     color : white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
    
 }
 
 .subComp1{
+    width: 100%;
+    height: 70vh;
+
     display: flex;
     justify-content: space-evenly;
    height: 30%;
     color: white;
     margin-top: 5vh;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+.middleComp{
+    height: 10vh;      /* this comp is just for spacing  */
 }
 .subComp2{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,6 +60,7 @@
     flex-wrap: wrap;
 }
 .comp2{
+    position: relative;
     width: 100%;
     height: 100vh;
     color : white;

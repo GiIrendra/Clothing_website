@@ -53,6 +53,7 @@ const comp1 = () => {
             <h5>Kurties</h5>
           </div>
         </div>
+        <div className={desig.middleComp}></div>
         <div className={desig.subComp2}>
           <div className="imgDiv1">
             <Image
